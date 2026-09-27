@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GLASSA UPVC DOOR AND WINDOWS</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;scroll-behavior:smooth}
+body{background:#f5f8fa;color:#1d2939}
+header{background:#073b4c;color:#fff;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000}
+.logo{font-size:22px;font-weight:700}.logo span{color:#38d9a9}
+nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:15px}
+.mobile-menu{display:none;font-size:28px;cursor:pointer}
+.hero{min-height:90vh;display:flex;align-items:center;padding:60px 7%;background:linear-gradient(rgba(3,35,45,.78),rgba(3,35,45,.78)),url("https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=80");background-size:cover;background-position:center;color:#fff}
+.hero-content{max-width:750px}.hero h1{font-size:48px;line-height:1.1;margin-bottom:20px}.hero h1 span{color:#38d9a9}
+.hero p{font-size:19px;line-height:1.7;margin-bottom:12px}
+.btn{display:inline-block;background:#38d9a9;color:#073b4c;padding:14px 25px;border-radius:30px;text-decoration:none;font-weight:700;margin-top:15px;margin-right:10px}.btn-outline{background:transparent;border:2px solid #fff;color:#fff}
+section{padding:75px 7%}.title{text-align:center;margin-bottom:45px}.title h2{font-size:34px;color:#073b4c}.title p{margin-top:10px;color:#667085}
+.about,.prominence-content,.contact{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.about img{width:100%;border-radius:18px}.about-text h2,.prominence-text h2{color:#073b4c;font-size:32px;margin-bottom:20px}
+.about-text p,.prominence-text p{line-height:1.8;color:#555;margin-bottom:15px}
+.badge{display:inline-block;padding:12px 18px;background:#e2fff5;color:#087f5b;border-radius:10px;font-weight:700;margin-top:10px}
+.prominence{background:#fff}.prominence-text h3{color:#087f5b;font-size:22px;margin-bottom:15px}
+.video-wrap{width:100%;border-radius:18px;overflow:hidden;background:#000;box-shadow:0 10px 30px rgba(0,0,0,.15)}
+.video-wrap video{width:100%;display:block;aspect-ratio:16/9;background:#000}
+.video-error{display:none;padding:12px;text-align:center;background:#fff3f3;color:#a33;font-size:14px}
+.products{background:#eef5f7}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:#fff;padding:25px 18px;border-radius:15px;text-align:center;box-shadow:0 5px 20px rgba(0,0,0,.07);transition:.3s}.card:hover{transform:translateY(-7px)}
+.card .icon{font-size:42px;margin-bottom:15px}.card h3{color:#073b4c;margin-bottom:10px}.card p{color:#667085;line-height:1.5;font-size:14px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.feature{background:#fff;padding:28px;border-radius:15px;box-shadow:0 4px 18px rgba(0,0,0,.06)}.feature h3{margin-bottom:10px;color:#073b4c}.feature p{color:#667085;line-height:1.6}
+.warranty{background:#073b4c;color:#fff;text-align:center}.warranty h2{font-size:40px;margin-bottom:15px}.warranty span{color:#38d9a9}
+.contact-box{background:#fff;padding:30px;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.07)}.contact-box h3{color:#073b4c;margin-bottom:20px}.contact-item{margin:17px 0;font-size:17px;line-height:1.6}.contact-item a{color:#087f5b;text-decoration:none;font-weight:700}
+.map{width:100%;min-height:300px;border:0;border-radius:15px}footer{background:#021f29;color:#fff;text-align:center;padding:25px;line-height:1.8}footer span{color:#38d9a9}
+@media(max-width:900px){nav{display:none;position:absolute;top:70px;right:0;background:#073b4c;width:100%;padding:20px;text-align:center}nav.active{display:block}nav a{display:block;margin:18px}.mobile-menu{display:block}.hero h1{font-size:38px}.about,.prominence-content,.contact{grid-template-columns:1fr}.product-grid{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:1fr}}
+@media(max-width:500px){.hero{min-height:85vh;padding:45px 6%}.hero h1{font-size:32px}.hero p{font-size:16px}section{padding:55px 6%}.product-grid{grid-template-columns:1fr}.prominence-text h2{font-size:28px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">GLASSA <span>UPVC</span></div>
+<div class="mobile-menu" onclick="toggleMenu()">☰</div>
+<nav id="nav">
+<a href="#home">Home</a><a href="#about">About</a><a href="#prominence">Prominence</a>
+<a href="#products">Products</a><a href="#features">Features</a><a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+<h1>GLASSA <span>UPVC</span><br>DOOR AND WINDOWS</h1>
+<p>Premium UPVC doors and windows designed for durability, comfort, safety and modern living.</p>
+<p><strong>Prominence UPVC Window System</strong></p>
+<p><strong>20 Year Warranty</strong></p>
+<a href="tel:9207181006" class="btn">📞 Call Now</a>
+<a href="#products" class="btn btn-outline">View Products</a>
+</div>
+</section>
+
+<section id="about">
+<div class="about">
+<div><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=80"></div>
+<div class="about-text">
+<h2>About GLASSA</h2>
+<p>GLASSA UPVC DOOR AND WINDOWS is a professional UPVC door and window solution provider based in <strong>Peachamkode, Wayanad, Kerala.</strong></p>
+<p>We provide modern and durable UPVC door and window solutions using the <strong>Prominence UPVC Window System.</strong></p>
+<p>Our products are designed to provide long-lasting performance, comfort and a modern appearance.</p>
+<div class="badge">20 YEAR WARRANTY</div>
+</div>
+</div>
+</section>
+
+<section class="prominence" id="prominence">
+<div class="title"><h2>Prominence UPVC Window System</h2><p>Advanced UPVC window and door solutions for modern buildings</p></div>
+<div class="prominence-content">
+<div class="prominence-text">
+<h2>Prominence</h2>
+<h3>Premium UPVC Window System</h3>
+<p>GLASSA UPVC DOOR AND WINDOWS uses the <strong>Prominence UPVC Window System</strong> to provide high-quality window and door solutions.</p>
+<p>Designed for durability, comfort, weather resistance and low maintenance, Prominence systems are suitable for modern homes and buildings.</p>
+<p><strong>Warranty:</strong> 20 Years</p>
+<a href="#contact" class="btn">Enquire Now</a>
+</div>
+
+<div class="video-wrap">
+<video controls playsinline preload="auto" poster="" id="prominenceVideo">
+<source src="./prominence-video.mp4" type="video/mp4">
+Your browser does not support HTML5 video.
+</video>
+<div class="video-error" id="videoError">
+Video could not be loaded. Keep <strong>prominence-video.mp4</strong> in the same folder as <strong>index.html</strong>.
+</div>
+</div>
+</div>
+</section>
+
+<section class="products" id="products">
+<div class="title"><h2>Our Products & Services</h2><p>Complete UPVC door, window and glazing solutions</p></div>
+<div class="product-grid">
+<div class="card"><div class="icon">🪟</div><h3>Sliding Windows</h3><p>Modern sliding window systems for smooth operation and ventilation.</p></div>
+<div class="card"><div class="icon">🏠</div><h3>Casement Windows</h3><p>Stylish and practical casement windows for homes and buildings.</p></div>
+<div class="card"><div class="icon">↕️</div><h3>Tilt & Turn Windows</h3><p>Flexible window systems providing ventilation and easy cleaning.</p></div>
+<div class="card"><div class="icon">🚪</div><h3>UPVC Balcony Doors</h3><p>Elegant and durable balcony door solutions.</p></div>
+<div class="card"><div class="icon">🚪</div><h3>Sliding Doors</h3><p>Space-saving sliding doors with a modern appearance.</p></div>
+<div class="card"><div class="icon">▣</div><h3>Partition Doors</h3><p>Partition solutions for homes, offices and interiors.</p></div>
+<div class="card"><div class="icon">🦟</div><h3>Mosquito Mesh</h3><p>Comfortable ventilation while helping keep mosquitoes outside.</p></div>
+<div class="card"><div class="icon">🔲</div><h3>Glass & Glazing</h3><p>Glass and glazing solutions for modern door and window systems.</p></div>
+</div>
+</section>
+
+<section id="features">
+<div class="title"><h2>Why Choose GLASSA?</h2><p>Built for comfort, durability and easy maintenance</p></div>
+<div class="features">
+<div class="feature"><h3>💧 Water Proof</h3><p>Designed to help protect interiors from water penetration.</p></div>
+<div class="feature"><h3>🐜 Termite Proof</h3><p>UPVC material provides resistance against termite-related damage.</p></div>
+<div class="feature"><h3>🔇 Sound Proof</h3><p>Designed to help reduce outside sound and improve indoor comfort.</p></div>
+<div class="feature"><h3>🔕 Noise Isolation</h3><p>Suitable for creating a quieter indoor environment.</p></div>
+<div class="feature"><h3>☀️ Weather Resistant</h3><p>Designed to perform in different weather conditions.</p></div>
+<div class="feature"><h3>🌱 Eco Friendly</h3><p>A modern material choice designed for long-term use.</p></div>
+<div class="feature"><h3>🧹 Low Maintenance</h3><p>Easy to maintain and suitable for long-term everyday use.</p></div>
+</div>
+</section>
+
+<section class="warranty"><h2><span>20 YEAR</span> WARRANTY</h2><p>Quality UPVC window and door systems with long-term warranty support.</p></section>
+
+<section id="contact">
+<div class="title"><h2>Contact GLASSA</h2><p>Get in touch with us for your UPVC door and window requirements.</p></div>
+<div class="contact">
+<div class="contact-box">
+<h3>Contact Information</h3>
+<div class="contact-item">📍 <strong>Location:</strong><br>Peachamkode, Wayanad, Kerala</div>
+<div class="contact-item">📞 <strong>Phone:</strong><br><a href="tel:9207181006">9207181006</a><br><a href="tel:9207221006">9207221006</a></div>
+<div class="contact-item">🏢 <strong>Company:</strong><br>GLASSA UPVC DOOR AND WINDOWS</div>
+<div class="contact-item">🔧 <strong>UPVC System:</strong><br>Prominence UPVC Window System</div>
+<div class="contact-item">🛡️ <strong>Warranty:</strong><br>20 Years</div>
+<a href="tel:9207181006" class="btn">Call GLASSA</a>
+</div>
+<div><iframe class="map" src="https://www.google.com/maps?q=Peachamkode,Wayanad,Kerala&output=embed" loading="lazy"></iframe></div>
+</div>
+</section>
+
+<footer><p>© 2026 <span>GLASSA UPVC DOOR AND WINDOWS</span></p><p>Peachamkode, Wayanad | Prominence UPVC Window System | 20 Year Warranty</p></footer>
+
+<script>
+function toggleMenu(){document.getElementById("nav").classList.toggle("active");}
+const video=document.getElementById("prominenceVideo");
+video.addEventListener("error",function(){document.getElementById("videoError").style.display="block";});
+</script>
+</body>
+</html>
